@@ -59,7 +59,6 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-
 .navbar {
     width: 100%;
     height: 90px;
@@ -69,31 +68,47 @@ body {
     border-bottom: 1px solid #cbd6e2;
     padding-top: 30px;
 }
-
 .content_navbar {
     width: 90%;
     margin: 0 auto;
 }
-
 .container_navbar {
     width: 100%;
     margin: 0 auto;
 }
-
 .promobar {
     width: 100%;
     height: 90px;
     background-color: #425b76;
 }
-
 .content_navbar img {
     float: left;
 }
-
 .content_navbar li {
     float: right;
     display: inline-block;
     padding-left: 40px;
     color: #33475b;
     font-weight: 600;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border:1px solid #ff7a59;
+    background-color: white;
+    color: #ff7a59;
+    border-radius: 5px;
+}
+#get {
+    width: 130px;
+    height: 40px;
+    background-color: #ff7a59;
+    border:1px solid #ff7a59;
+    border-radius: 5px;
+    color: white;
+}
+
+.content_topbar i:nth-of-type(3) {
+    color: #A4DCE6
 }
