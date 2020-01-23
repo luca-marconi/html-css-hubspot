@@ -72,15 +72,6 @@ body {
     width: 90%;
     margin: 0 auto;
 }
-.container_navbar {
-    width: 100%;
-    margin: 0 auto;
-}
-.promobar {
-    width: 100%;
-    height: 90px;
-    background-color: #425b76;
-}
 .content_navbar img {
     float: left;
 }
@@ -122,4 +113,43 @@ button {
 .access i {
     color: #00A3BC;
     padding-right: 20px;
+}
+.container_promobar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #425b76;
+}
+.promobar {
+    width: 100%;
+    height: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #425b76;
+    position: relative;
+}
+.content_promobar {
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
+    padding-top: 25px;
+    color: white;
+
+}
+#learn {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    color: #425B76;
+    font-weight: bold;
+    position: absolute;
+    right: 50px;
+    bottom: 25px;
+}
+#learn:hover {
+    background-color: #ECEFF2;
+}
+.content_promobar p {
+    width:80%;
 }
