@@ -348,7 +348,7 @@ button {
 .container_stat {
     width: 100%;
     margin: 0 auto;
-    height: 900px;
+    height: 800px;
     border-bottom: 1px solid #cbd6e2;
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
@@ -423,4 +423,45 @@ button {
     width: 100%;
     height: 25px;
     margin: 5px 0;
+}
+.container_partner {
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+.partner {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content_partner {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: left;
+}
+.firts_content_partner h2 {
+    font-size: 40px;
+    color: #33475B;
+}
+.firts_content_partner p {
+    width: 250px;
+    font-size: 20px;
+    color: #33475B;
+    margin-top: 10px;
+}
+.text_content_partner {
+    float: left;
+}
+.logo_content_partner {
+    width: 60%;
+    float: right;
+}
+.logo_content_partner img {
+    width: 120px;
+    margin-right: 20px;
+    vertical-align: middle;
 }
