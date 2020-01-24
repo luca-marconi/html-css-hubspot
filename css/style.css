@@ -20,20 +20,17 @@ body {
 
 }
 .topbar {
-    width: 100%;
+    width: 90%;
     height: 70px;
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f5f8fa;
-
-
 }
 .content_topbar {
     width: 90%;
     height: 70px;
     margin: 0 auto;
     padding: 20px 0;
-
 }
 .content_topbar span {
     margin: 0 15px;
@@ -65,7 +62,7 @@ body {
     margin: 0 auto;
 }
 .navbar {
-    width: 100%;
+    width: 90%;
     height: 90px;
     max-width: 1200px;
     margin: 0 auto;
@@ -125,7 +122,7 @@ button {
     background-color: #425b76;
 }
 .promobar {
-    width: 100%;
+    width: 90%;
     height: 90px;
     max-width: 1200px;
     margin: 0 auto;
@@ -161,27 +158,25 @@ button {
 }
 .container_banner {
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     background-color: #FFF3EE;
     border-bottom: 2px solid #33475B;
 }
 .banner {
-    width: 100%;
-    height: 500px;
+    width: 90%;
+    height: 600px;
     max-width: 1200px;
     margin: 0 auto;
     background-color: #FFF3EE;
     border-bottom: 2px solid #33475B;
-
 }
 .content_banner {
     width: 90%;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     padding-top: 25px;
     position: relative;
-
 }
 .text_banner {
     width: 40%;
@@ -207,8 +202,8 @@ button {
     font-size: 12px;
 }
 .text_banner img {
-    width: 800px;
+    width: 900px;
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -80px;
 }
