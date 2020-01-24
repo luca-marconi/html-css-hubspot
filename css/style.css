@@ -14,8 +14,10 @@ body {
 .container_topbar {
     width: 100%;
     margin: 0 auto;
+    height: 70px;
     border-bottom: 1px solid #cbd6e2;
     background-color: #f5f8fa;
+
 }
 .topbar {
     width: 100%;
@@ -23,12 +25,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f5f8fa;
+
+
 }
 .content_topbar {
     width: 90%;
     height: 70px;
     margin: 0 auto;
     padding: 20px 0;
+
 }
 .content_topbar span {
     margin: 0 15px;
@@ -159,6 +164,7 @@ button {
     height: 500px;
     margin: 0 auto;
     background-color: #FFF3EE;
+    border-bottom: 2px solid #33475B;
 }
 .banner {
     width: 100%;
@@ -166,13 +172,16 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #FFF3EE;
-    position: relative;
+    border-bottom: 2px solid #33475B;
+
 }
 .content_banner {
     width: 90%;
     height: 500px;
     margin: 0 auto;
     padding-top: 25px;
+    position: relative;
+
 }
 .text_banner {
     width: 40%;
@@ -196,4 +205,10 @@ button {
 .text_banner p:nth-of-type(2) {
     width: 200px;
     font-size: 12px;
+}
+.text_banner img {
+    width: 800px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
