@@ -219,11 +219,9 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
-    border-bottom: 2px solid #33475B;
 }
 .content_row_main {
     width: 70%;
-    height: 900px;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
@@ -291,10 +289,40 @@ button {
 }
 .column_2 li i {
     padding-right: 10px;
-    color: #FF8F73
+    color: #FF8F73;
 }
 .features:hover {
     transform: scale(1.03);
     transition: 0.4s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container_card {
+    width: 70%;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: 2px solid #33475B;
+    padding-top: 35px;
+}
+.card {
+    width: 33.3333%;
+    height: 800px;
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    border: 20px solid white;
+    }
+.card img {
+    height: 150px;
+    margin-bottom: 25px;
+}
+.card h3 {
+    color: #34485C;
+}
+.card p {
+    color: #33475B;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 15px;
 }
