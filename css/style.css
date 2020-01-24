@@ -210,13 +210,12 @@ button {
 }
 .container_row_main {
     width: 100%;
-    height: 600px;
+    height: 1300px;
     margin: 0 auto;
     background-color: white;
 }
 .row_main {
     width: 90%;
-    height: 800px;
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
@@ -302,16 +301,14 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
-    border-bottom: 2px solid #33475B;
     padding-top: 35px;
 }
 .card {
     width: 33.3333%;
     float: left;
     text-align: center;
-    padding: 10px 10px;
-    border: 20px solid white;
-    }
+    padding: 10px 30px;
+}
 .card img {
     height: 150px;
     margin-bottom: 25px;
@@ -347,4 +344,24 @@ button {
         transform: scale(1.03);
         transition: 0.4s;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container_stat {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    border-bottom: 1px solid #cbd6e2;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.stat {
+    width: 90%;
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content_stat {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
 }
