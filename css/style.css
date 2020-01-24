@@ -106,6 +106,7 @@ button {
     border:1px solid #ff7a59;
     border-radius: 5px;
     color: white;
+    font-weight: bold;
 }
 .access {
     float: right;
@@ -298,7 +299,6 @@ button {
 }
 .container_card {
     width: 70%;
-    height: 800px;
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
@@ -307,7 +307,6 @@ button {
 }
 .card {
     width: 33.3333%;
-    height: 800px;
     float: left;
     text-align: center;
     padding: 10px 10px;
@@ -325,4 +324,27 @@ button {
     font-size: 14px;
     text-align: left;
     margin-top: 15px;
+}
+.card p:last-of-type {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.card ul {
+    padding: 25px 0;
+}
+.card i {
+    padding-right: 10px;
+    color: #FF8F73;
+    text-align: left;
+}
+.card li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 15px;
+}
+.card:hover {
+        transform: scale(1.03);
+        transition: 0.4s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
