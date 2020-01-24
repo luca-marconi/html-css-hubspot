@@ -292,5 +292,9 @@ button {
 .column_2 li i {
     padding-right: 10px;
     color: #FF8F73
-
+}
+.features:hover {
+    transform: scale(1.03);
+    transition: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
