@@ -443,6 +443,9 @@ button {
     padding-top: 100px;
     text-align: left;
 }
+.firts_content_partner {
+    height: 200px;
+}
 .firts_content_partner h2 {
     font-size: 40px;
     color: #33475B;
@@ -455,6 +458,9 @@ button {
 }
 .text_content_partner {
     float: left;
+    font-size: 40px;
+    color: #33475B;
+
 }
 .logo_content_partner {
     width: 60%;
@@ -463,5 +469,36 @@ button {
 .logo_content_partner img {
     width: 120px;
     margin-right: 20px;
+    px;
     vertical-align: middle;
+}
+.second_content_partner {
+    margin-top: 50px;
+}
+.second_content_partner h2 {
+    width: 400px;
+    font-size: 30px;
+}
+.second_content_partner p {
+    font-size: 15px;
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.second_content_partner #get {
+    width: 200px;
+    height: 70px;
+}
+.second_content_partner p:nth-last-of-type(1) {
+    font-size: 12px;
+}
+.second_content_partner.text_content_partner {
+    float: left;
+}
+.foto_content_partner img {
+    width: 50%;
+    padding-left: 200px;
+}
+.second_content_partner.foto_content_partner {
+    float: left;
 }
