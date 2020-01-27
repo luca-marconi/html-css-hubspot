@@ -600,3 +600,11 @@ button {
     font-size: 18px;
     margin-right: 10px;
 }
+.language:hover {
+    color: #0091ae;
+    cursor: pointer;
+}
+.column_footer li:hover {
+    color: #0091ae;
+    cursor: pointer;
+}
